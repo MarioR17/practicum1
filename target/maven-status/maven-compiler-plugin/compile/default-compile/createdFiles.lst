@@ -1,0 +1,5 @@
+edu/iu/p466/prime_service/controller/PrimesController.class
+edu/iu/p466/prime_service/service/IPrimeService.class
+edu/iu/p466/prime_service/controller/HomeController.class
+edu/iu/p466/prime_service/service/PrimeService.class
+edu/iu/p466/prime_service/PrimeServiceApplication.class
