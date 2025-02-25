@@ -32,6 +32,6 @@ jobs:
 
       - name: Build and push the image
         run: |
-          docker login --username MarioR17 --password-stdin ${{secrets.ACCESS_TOKEN}} ghcr.io
-          docker build -t ghcr.io/MarioR17/prime-service:latest --file Dockerfile .  
-          docker push ghcr.io/MarioR17/prime-service:latest 
+          docker login --username hbahramian --password ${{secrets.ACCESS_TOKEN}} ghcr.io
+          docker build -t ghcr.io/hbahramian/primes-service:latest --file Dockerfile .  
+          docker push ghcr.io/hbahramian/primes-service:latest  

@@ -41,6 +41,7 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!--
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
@@ -62,6 +63,7 @@
 			<artifactId>nimbus-jose-jwt</artifactId>
 			<version>9.37.3</version>
 		</dependency>
+		-->
 	</dependencies>
 
 	<build>
