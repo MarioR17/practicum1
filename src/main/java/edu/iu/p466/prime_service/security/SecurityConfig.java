@@ -1,8 +1,5 @@
-/*
 package edu.iu.p466.prime_service.security;
 
-import com.nimbusds.jose.jwk.JWKSet;
-import com.nimbusds.jose.jwk.source.JWKSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
@@ -30,5 +27,3 @@ public class SecurityConfig {
 }
 
 
-
- */

@@ -1,4 +1,3 @@
-/*
 package edu.iu.p466.prime_service.security;
 
 
@@ -23,6 +22,3 @@ public class KeyGeneratorUtils {
             return keyPair;
         }
 }
-
-
- */

@@ -1,4 +1,3 @@
-/*
 package edu.iu.p466.prime_service.security;
 
 import java.security.KeyPair;
@@ -22,5 +21,3 @@ public class Jwks {
                 .build();
     }
 }
-
- */
