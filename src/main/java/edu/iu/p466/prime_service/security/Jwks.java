@@ -1,12 +1,10 @@
 package edu.iu.p466.prime_service.security;
 
 import java.security.KeyPair;
-import java.security.interfaces.RSAKey;
+import com.nimbusds.jose.jwk.RSAKey;
 import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
 import java.util.UUID;
-
-import static java.security.interfaces.RSAKey.*;
 
 public class Jwks {
     private Jwks() {}
