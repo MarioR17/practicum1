@@ -30,10 +30,6 @@ public class AuthenticationService implements
         return authenticationRepository.save(customer);
     }
 
-    @Override
-    public boolean login(String username, String password) {
-        return true;
-    }
 
     @Override
     public UserDetails loadUserByUsername(String username)
